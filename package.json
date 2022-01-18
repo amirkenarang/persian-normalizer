@@ -1,0 +1,23 @@
+{
+  "name": "persian-normalizer",
+  "version": "1.0.0",
+  "description": "Normalize Persian Text",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirkenarang/persian-normalizer.git"
+  },
+  "keywords": [
+    "Persian",
+    "Normalize"
+  ],
+  "author": "Amir Kenarang amir.kenarang@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirkenarang/persian-normalizer/issues"
+  },
+  "homepage": "https://github.com/amirkenarang/persian-normalizer#readme"
+}
