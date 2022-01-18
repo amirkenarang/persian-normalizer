@@ -4,7 +4,8 @@
   "description": "Normalize Persian Text",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ts index.ts "
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/amirkenarang/persian-normalizer/issues"
   },
-  "homepage": "https://github.com/amirkenarang/persian-normalizer#readme"
+  "homepage": "https://github.com/amirkenarang/persian-normalizer#readme",
+  "devDependencies": {}
 }

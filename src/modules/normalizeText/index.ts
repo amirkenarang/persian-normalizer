@@ -32,4 +32,5 @@ const __removeTashdid = (text) => {
   return text.replace(/[\u0651]/g, "");
 };
 
-module.exports = normalizeText;
+// module.exports = normalizeText;
+export default normalizeText;

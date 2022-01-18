@@ -18,19 +18,20 @@ const normalizeNumber = (text) => {
       })
       .join("");
 
-    normalized = __removeWhiteSpaces(normalized);
-    normalized = __removeHalfSpaces(normalized);
+    // normalized = __removeWhiteSpaces(normalized);
+    // normalized = __removeHalfSpaces(normalized);
     return normalized;
   }
   return text;
 };
 
-const __removeWhiteSpaces = (text) => {
-  return text.replace(/\s+/g, "");
-};
+// const __removeWhiteSpaces = (text) => {
+//   return text.replace(/\s+/g, "");
+// };
 
-const __removeHalfSpaces = (text) => {
-  return text.replace(/[\u2000-\u200f]/g, "");
-};
+// const __removeHalfSpaces = (text) => {
+//   return text.replace(/[\u2000-\u200f]/g, "");
+// };
 
-module.exports = normalizeNumber;
+// module.exports = normalizeNumber;
+export default normalizeNumber;
