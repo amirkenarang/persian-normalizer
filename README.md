@@ -21,9 +21,24 @@ npm install --save persian-normalizer
 
 The simplest way to check convert english or arabic text and number to persian. Also, it create a search field for persian search in databases:
 
+Import in `Typescipt`:
+
+```ts
+import { normalizePersianTex} from "persian-normalizer";
+
+```
+
+Import in `Javascript` files:
+
+```js
+const { normalizePersianText } = require("persian-normalizer");
+```
+
+**Example usag:**
+
 ```ts
 import {
-  normalizePersianText,
+  normalizePersianTex`t,
   extractNumbers,
   persianToEnglishNumber,
   removeSpaces,
