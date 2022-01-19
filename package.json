@@ -2,10 +2,12 @@
   "name": "persian-normalizer",
   "version": "1.0.0",
   "description": "Normalize Persian Text",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "gulp": "gulp",
+    "prepublish": "gulp && tsc"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,7 @@
     "url": "https://github.com/amirkenarang/persian-normalizer/issues"
   },
   "homepage": "https://github.com/amirkenarang/persian-normalizer#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }

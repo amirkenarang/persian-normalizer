@@ -1,4 +1,16 @@
-import normalizeText from "./modules/normalizeText";
-import normalizeNumber from "./modules/normalizeNumber";
+import { persianToEnglishNumber, extractNumbers } from "./modules/numbers";
+import { removeSpaces } from "./modules/spaces";
+import {
+  normalizePersianText,
+  createSearchField,
+  isEnglish,
+} from "./modules/text";
 
-export default { normalizeText, normalizeNumber };
+export {
+  persianToEnglishNumber,
+  extractNumbers,
+  removeSpaces,
+  normalizePersianText,
+  createSearchField,
+  isEnglish,
+};
