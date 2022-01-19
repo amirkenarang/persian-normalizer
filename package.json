@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp",
-    "prepublish": "gulp && tsc"
+    "prepublish": "gulp && tsc",
+    "publish": "prepublish && npm publish"
   },
   "repository": {
     "type": "git",
@@ -15,10 +16,13 @@
   },
   "keywords": [
     "Persian",
-    "Normalize"
+    "Normalize",
+    "Arabic Text",
+    "Javascript",
+    "Typescript"
   ],
   "author": "Amir Kenarang amir.kenarang@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/amirkenarang/persian-normalizer/issues"
   },
