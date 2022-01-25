@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp",
     "prepublish": "gulp && tsc",
-    "publish": "prepublish && npm publish"
+    "publish": "npm run prepublish && npm publish"
   },
   "repository": {
     "type": "git",
