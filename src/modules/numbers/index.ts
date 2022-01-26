@@ -36,6 +36,7 @@ const extractNumbers = (text: string): string => {
   let normalized = text;
 
   normalized = text
+    .toString()
     .split("")
     .map(function (c) {
       const mapped = numbersMaping[c.charCodeAt(0)];

@@ -12,9 +12,10 @@ import * as parsianMaping from "../utf8-codes/persian-maping.json";
 const normalizePersianText = (text: string): string => {
   if (!text || text === "") return;
 
-  let normalized = text;
+  let normalized = text.toString();
 
   normalized = normalized
+    .toString()
     .split("")
     .map(function (c) {
       const mapped = parsianMaping[c.charCodeAt(0)];
@@ -36,9 +37,10 @@ const normalizePersianText = (text: string): string => {
  */
 const createSearchField = (text: string): string => {
   if (!text || text === "") return;
-  let normalized = text;
+  let normalized = text.toString();
 
   normalized = normalized
+    .toString()
     .split("")
     .map(function (c) {
       const mapped =
