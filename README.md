@@ -68,7 +68,7 @@ Results are like this:
 
 ## Change Log
 
-See [Changelog]([CHANGELOG.md](https://github.com/amirkenarang/persian-normalizer/blob/main/CHANGELOG.md)) for more information.
+See [Changelog](CHANGELOG.md) for more information.
 
 ## Contributing
 
@@ -76,7 +76,9 @@ Contributions welcome! See [Contributing](CONTRIBUTING.md).
 
 ## Author
 
-**Amir Kenarang (Amir Kenarang)**
+**Amir Kenarang**
+Email: amir.kenarang@gmail.com
+Website: www.amirkenarang.me
 
 ## License
 
