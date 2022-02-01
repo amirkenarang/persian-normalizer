@@ -4,3 +4,9 @@ dist
 # Dependency directories
 node_modules/
 jspm_packages/
+examples
+examples/
+test/
+.*
+*.log
+*.md

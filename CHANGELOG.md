@@ -1,6 +1,11 @@
 # Changelog
 
-## 1.0.1
+## 1.0.3
+
+* Example added
+* Documentation updated
+  
+## 1.0.2
 
 * Fix bug in split text
   

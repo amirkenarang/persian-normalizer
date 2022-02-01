@@ -6,6 +6,7 @@ A Package for normalizing text and number to persian
 - [Table of contents](#table-of-contents)
   - [Installation](#installation)
 - [Usage](#usage)
+- [What is it?](#what-is-it)
 - [Change Log](#change-log)
 - [Contributing](#contributing)
 - [Author](#author)
@@ -15,6 +16,10 @@ A Package for normalizing text and number to persian
 
 ```bash
 npm install --save persian-normalizer
+```
+
+```bash
+yarn add persian-normalizer
 ```
 
 ## Usage
@@ -38,7 +43,7 @@ const { normalizePersianText } = require("persian-normalizer");
 
 ```ts
 import {
-  normalizePersianTex`t,
+  normalizePersianTex,
   extractNumbers,
   persianToEnglishNumber,
   removeSpaces,
@@ -66,6 +71,10 @@ Results are like this:
 // result6 = false
 ```
 
+## What is it?
+
+This package was developed to remove extra Persian and Arabic characters from text. It will convert Arabic text to Persian and normalize it for searching in databases. Also, it converts Persian and English numbers to English Numbers.
+
 ## Change Log
 
 See [Changelog](CHANGELOG.md) for more information.
@@ -77,7 +86,9 @@ Contributions welcome! See [Contributing](CONTRIBUTING.md).
 ## Author
 
 **Amir Kenarang**
+
 Email: amir.kenarang@gmail.com
+
 Website: www.amirkenarang.me
 
 ## License
