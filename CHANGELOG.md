@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+* Exclude `examples` in tsconfig
+
 ## 1.0.3
 
 * Example added
