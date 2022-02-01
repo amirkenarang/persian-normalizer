@@ -1,13 +1,14 @@
 {
   "name": "persian-normalizer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Normalize Persian Text",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf ./dist",
     "gulp": "gulp",
-    "prepublish": "gulp && tsc",
+    "prepublish": "npm run clean && gulp && tsc",
     "publish": "npm run prepublish && npm publish"
   },
   "repository": {
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/amirkenarang/persian-normalizer#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "rimraf": "^3.0.2"
   }
 }

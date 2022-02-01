@@ -1,7 +1,12 @@
 # Changelog
 
+## 1.0.5
+
+* Add script for clean before build tsc
+
 ## 1.0.4
 
+* Add .gitignore in example
 * Exclude `examples` in tsconfig
 
 ## 1.0.3
