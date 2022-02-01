@@ -10,6 +10,6 @@
   "author": "Amir Kenarang",
   "license": "ISC",
   "dependencies": {
-    "persian-normalizer": "^1.0.3"
+    "persian-normalizer": "^1.0.5"
   }
 }
