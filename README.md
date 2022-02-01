@@ -5,6 +5,7 @@ A Package for normalizing text and number to persian
 
 - [Table of contents](#table-of-contents)
   - [Installation](#installation)
+- [Quick Start](#quick-start)
 - [Usage](#usage)
 - [What is it?](#what-is-it)
 - [Change Log](#change-log)
@@ -21,6 +22,14 @@ npm install --save persian-normalizer
 ```bash
 yarn add persian-normalizer
 ```
+
+## Quick Start
+
+Check out the [Examples](examples) in `./examples`.
+
+Don't see an example you think should be there? Submit a pull request
+to add it!
+
 
 ## Usage
 
