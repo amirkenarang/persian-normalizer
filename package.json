@@ -1,6 +1,6 @@
 {
   "name": "persian-normalizer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Normalize Persian Text",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,6 +30,6 @@
   "homepage": "https://github.com/amirkenarang/persian-normalizer#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^5.0.5"
   }
 }

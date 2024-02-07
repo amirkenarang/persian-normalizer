@@ -6,10 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["persian-normalizer"],
+  "keywords": [
+    "persian-normalizer"
+  ],
   "author": "Amir Kenarang",
   "license": "ISC",
   "dependencies": {
-    "persian-normalizer": "^1.0.5"
+    "persian-normalizer": "^1.0.6"
   }
 }
